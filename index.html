@@ -4,101 +4,130 @@
     <meta charset="UTF-8" />
     <title>Siwani's Portfolio</title>
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="css/reset.css" />
+    <meta name="port" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="css/styles.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
-    <h1>Siwani Gurung</h1>
-    <div>
-      <nav>
-        <ul>
-          <li><a href="#home">Home</a></li>
-          <li><a href="#profile">Profile</a></li>
-          <li><a href="#contact">Contact</a></li>
-        </ul>
-      </nav>
-    </div>
+    <!-- nav starts  -->
+    <nav>
+      <h1 id="top" class="name">Siwani Gurung</h1>
+      <!-- main-nav home profile contact  -->
+      <ul class="nav">
+        <li><a href="#top">Home</a></li>
+        <li><a href="#portfolio">Portfolio</a></li>
+        <li><a href="#skills">Skills</a></li>
+      </ul>
+    </nav>
 
-    <div>
-      <img src="images/siwani.jpeg" class="siwaniImage"/>
-      <p>
+    <!-- div section-1  -->
+    <div class="section-1">
+      <img
+        class="profile-pic"
+        src="images/pic.png"
+        alt="responisive portfolio pic"
+      />
+      <p class="bio">
         Hi! My name is Siwani Gurung. I'm a front end developer who loves
         responsive design and css. I recently finished learning front-end web
         development at Treehouse and am excited to put my skills to use!
       </p>
     </div>
-
-    <div>
-      <h3>Portfolio</h3>
-    </div>
-
-        
-    <div class="flexboxContainer">
-      <div class="col">
-        <img src="images/portfolio-1.png" class="portfolioImage" />
-        <h4>Marketing Page</h4>
-        <p>
+    <!-- div section-1 finish  -->
+    <!-- div portfolio container starts -->
+    <div class="portfolio-container">
+      <h2 id="portfolio">Portfolio</h2>
+      <!-- project1 -->
+      <div class="project proj-1">
+        <img src="images/portfolio-1.png" alt="portfolio-pic" />
+        <h3>Marketing Page</h3>
+        <p class="portfolio-text">
           This project shows the front page of a marketing website meant for
           specific businesses I'm interested in
         </p>
       </div>
 
-      <div class="col">
-        <img src="images/portfolio-2.png" class="portfolioImage"/>
-        <h4>Search Page</h4>
-        <p>
+      <!-- project2 -->
+      <div class="project proj-2">
+        <img src="images/portfolio-2.png" alt="portfolio-pic" />
+        <h3>Search Page</h3>
+        <p class="portfolio-text">
           This project searches through a database to find information the user
           is trying to look up.
         </p>
       </div>
 
-      <div class="col">
-        <img src="images/portfolio-3.png" class="portfolioImage"/>
-        <h4>Travel App</h4>
-        <p>
+      <!-- project3 -->
+
+      <div class="project proj-3">
+        <img src="images/portfolio-3.png" alt="portfolio-pic" />
+        <h3>Travel App</h3>
+        <p class="portfolio-text">
           This app is pretty simple. It tells you which mode of transport is
           fastest.
         </p>
       </div>
 
-      <div class="col">
-        <img src="images/portfolio-4.png" class="portfolioImage"/>
-        <h4>Map of Favorite Spots</h4>
-        <p>This project uses an API to map my favorite spots in Fallout 4</p>
+      <!-- project4 -->
+
+      <div class="project proj-4">
+        <img src="images/portfolio-4.png" alt="portfolio-pic" />
+        <h3>Map of Favorite Spots</h3>
+        <p class="portfolio-text">
+          This project uses an API to map my favorite spots in Fallout 4
+        </p>
       </div>
 
-      <div class="col">
-        <img src="images/portfolio-5.png" class="portfolioImage" />
-        <h4>Photo Gallery</h4>
-        <p>
+      <!-- project5 -->
+
+      <div class="project proj-5">
+        <img src="images/portfolio-5.png" alt="portfolio-pic" />
+        <h3>Photo Gallery</h3>
+        <p class="portfolio-text">
           This project shows pictures from a recent trip to the viewer and
           allows them to easily navigate through photos
         </p>
       </div>
 
-      <div class="col">
-          <img src="images/portfolio-6.png" class="portfolioImage" />
-          <h4>Calculator</h4>
-          <p>
-            Someone can enter in the numbers they want and press the big blue button
-            to get the result
-          </p>
-</div>
+      <!-- project6 -->
 
-
+      <div class="project proj-6">
+        <img src="images/portfolio-6.png" alt="portfolio-pic" />
+        <h3>Calculator</h3>
+        <p class="portfolio-text">
+          Someone can enter in the numbers they want and press the big blue
+          button to get the result
+        </p>
       </div>
 
-    
+      <!-- div portfolio container ends -->
+    </div>
 
-    <h2>Contact</h2>
-    <p>
-      If you're interested in chatting or want more information about what I've
-      been working on, I'd love to hear from you!
-    </p>
-    <h2>Phone +1(11)123456789</h2>
-    <h2>Email sg@email.com</h2>
+    <!-- div for contact container phone, email starts  -->
+    <div class="contact-container" id="contact">
+      <h2>Contact</h2>
+      <p class="contact-text">
+        If you're interested in chatting or want more information about what
+        I've been working on, I'd love to hear from you!
+      </p>
+      <p>Phone <a href="#" class="contact-info">+1(11)123456789</a></p>
+      <p>Email <a href="#" class="contact-info">sg@email.com</a></p>
+    </div>
+    <!-- div for contact container phone, email ends  -->
+
+    <!-- footer starts  -->
+    <footer class="nav-footer">
+      <p class="name">Siwani Gurung</p>
+      <a class="top" href="#top">BACK TO TOP</a>
+      <ul>
+        <li><a href="#top">Home</a></li>
+        <li><a href="#portfolio">Portfolio</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </footer>
+    <!-- footer ends  -->
   </body>
 </html>
-  </body>
-</html> 
